@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+main {
+    background-color: rgb(37, 37, 37);
+    width: 725px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 10px;
+}
+h1 {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 0px black;
+}

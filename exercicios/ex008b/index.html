@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <p>Um exemplo abaixo de um código em python usando a tag &lt;pre&gt; para preservar os espaços, quebras de linhas, sendo perfeitos para mostrar códigos como esse abaixo.</p>
+    <pre>
+        <code>
+    num = int(input(Digite um número'))
+    if num % 2 -- 0:
+            print(f'0 número {num} é PAR')
+    else:
+            print(f'0 número {num} é ÍMPAR)
+    print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é muito rápido</q></p>
+    <p>Na frase acima foi usada a tag &lt;q&gt; de "quote" ou "sitação"</p>
+    <p>Não confundir sitação com aspas. <br>
+        <br>
+       EX: Aquele cara era meio "estranho". Aqui foi usado "aspas". <br>
+       EX<sup>2</sup>: Um dia meu amigo disse:<q> Mas vale um pássaro na mão do que dois voando</q></p>
+       <h2>Citações completas</h2>
+       <p>Segundo Jeff Noble, no seu livro HTML para leigos</p>
+       <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_and_CSS_For_Dummies/EGp9DgAAQBAJ?hl=pt-BR&gbpv=1&dq=html+css+xhtml+para+leigos&printsec=frontcover">
+        A diferença entre elementos inline e um block de texto é importante. Os elementos HTML neste capítulo descrevem os blockos de texto.
+       </blockquote>
+       <p>Citações completas usamos a tag &lt;blockquote&gt; ela aparece deslocada horizontalmente como mostrado acima, mas sei que é uma citação para determinado autor. <br>
+        Podemos criar um parâmentro "cite" dentro da tag para referênciarmos uma citação.</p>
+        <p>Visualmente não vai aparecer nada, mas os mecânismos de busca, o google, a parte interna do site vai saber da frase/referência do link de acordo com o "cite" que estiver nela.</p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascade Style Sheets">CSS</abbr>. Estou adorando !</p>
+    <p>Usamos a tag &lt;abbr&gt; com o parâmetro "title" para darmos significado a palavra ou sigla. (Como no exemplo acima)
+    </p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <p>Para texto invertido usamos a tag &lt;bdo&gt; selecionamos "l"ou r". L fará o texto da esquerda para direita (left to right). R fará o texto da direita para esquerda. O de cima foi usado o "R/rtl"</p>    
+</body>
+</html>

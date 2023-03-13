@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Trocar de roupa</li>
+        <li>Trabalhar</li>
+    </ol>
+    <p>Para criarmos esta lista usamos a tag &lt;ol&gt; em conjunto com a tag &lt;li&gt; criando uma lista númerada em ordem (por isso o OL de <em>Ordered List</em>)</p>
+    <p>Não é obrigatório fechar a tag "li" com "/" no HTML5, mas como o VSCode fecha automaticamente, então é sem problemas.</p>
+    <p>Ela também criará listas para serem alteradas sem precisar mudar o número, só alterando o item da lista</p>
+    <p>Para alternarmos a ordem usamos o parâmetro "start" dentro da tag &lt;ol&gt; junto do parâmetro "type" (que serve para mudarmos o tipo de ordem da lista. Se vai ser com números "1", letras"A,a", ou número romanos "i,I"). <br>
+    A tag ficaria assim &lt;ol type="1" start="4"&gt;. E ficaria assim:</p>
+    <ol type="1" start="6">
+        <li>Almoçar</li>
+        <li>Voltar pro trabalho</li>
+        <li>Ir pra casa</li>
+        <li>Tomar banho</li>
+        <li>Estudar</li>
+        <li>Jogar um pouco</li>
+        <li>Dormir</li>
+    </ol>
+    <p>Ele continuou a lista de onde a anterior parou.</p>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <p>Listas nào ordenadas são listas sem ordem, normalmente mostradas com círculos, bolinhas pretas ou quadrados (circles, disc ou square). <br>
+    A tag é &lt;ul&gt; (de <em>Unordered list</em>) e usamos o mesma esquema com o "type" da OL acima</p>
+    <p>EX: &lt;ul type="square"&gt; (fazendo quadradinhos). <br>
+    <br>
+       Mas abaixo usarei o "disc", ficando assim:</p>
+       <ul type="disc">
+        <li>Batata</li>
+        <li>Maçã</li>
+        <li>Suco de Limão</li>
+        <li>Bolacha</li>
+        <li>Manteiga</li>
+        <li>Uva</li>
+       </ul>
+       <h2>Juntando listas versão 1.0</h2>
+       <h3>Músicas favoritas</h3>
+       <ol>
+        <li>Antigas</li>
+        <ol type="A">
+            <li>Claudinho e Bochecha</li>
+            <li>Cazuza</li>
+            <li>Raça Negra</li>
+            <li>Metallica</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="A" start="5">
+            <li>Teto</li>
+            <li>Matue</li>
+            <li>Costa Golg</li>
+            <li>Emicida</li>
+        </ol>
+       </ol>
+       <h2>Meus video-games favoritos</h2>
+       <ol>
+        <li>Nintendinho</li>
+        <ul type="square">
+            <li>Robin Hood (primeiro jogo que joguei na vida)</li>
+            <li>Super Mario Bros</li>
+            <ul type="disc">
+                <li>Mario Bros 3</li>
+                <li>Mario vs Donkey Kong</li>
+            </ul>
+            <li>Simpsons Bart Skate</li>
+        </ul>
+        <li>Mega Drive</li>
+        <ul type="square">
+            <li>Sonic The Hedgehog</li>
+            <ul type="disc">
+                <li>Sonic 2 e 3</li>
+            </ul>
+            <li>Vector</li>
+            <ul>
+                <li>Vector 2</li>
+                <ul>
+                    <li>Vector hackversion</li>
+                </ul>
+            </ul>
+            <li>Shinobi</li>
+            <ul>
+                <li>Shinobi 2</li>
+                <li>Shinobi 3</li>
+            </ul>
+            <li>Ristar</li>
+        </ul>
+        <li>Super Nintendo</li>
+        <ul type="square">
+            <li>Super Mario World</li>
+            <li>Donkey Kong Country</li>
+            <li>Ultimate Mortal Kombat 3</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Crash Bandicoot 3: Wraped</li>
+            <li>Mortal Kombat 4</li>
+            <li>Castlevania: Simphony of the Night</li>
+        </ul>
+       </ol>
+       <h2>Lista de definição</h2>
+       <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação apra a criação do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+       </dl>
+
+
+</body>
+</html>
