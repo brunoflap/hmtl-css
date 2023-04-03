@@ -13,6 +13,31 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            border-top: 1px;
+            border-left: 1px;
+            border-right: 1px;
+            border-bottom: 0px;
+            border-style: solid;
+            border-color: black;
+            padding: 10px;
+            background-color: darkcyan;
+            color: white;
+            font-weight: bold;
+            font-size: medium;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgrey;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: grey;
         }
 
         td, th {
@@ -36,8 +61,8 @@
         <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
